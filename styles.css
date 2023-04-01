@@ -1,1 +1,43 @@
 /* Your CSS Code here. */
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .hour-hand {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 100% 50%;
+    transform: rotate(30deg);
+  }
+  
+  .minute-hand {
+    width: 70%;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 100% 50%;
+    transform: rotate(45deg);
+  }
+  
+  .second-hand {
+    width: 80%;
+    height: 2px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 100% 50%;
+    transform: rotate(60deg);
+  }
+  
